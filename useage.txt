@@ -11,3 +11,11 @@ git checkout -- readme.txt
 2、readme.txt已添加到暂存区，又作了修改，撤销回到添加到暂存区后的状态
 
 返回点是最近一次git commit或git add时的状态
+
+使用git reset HEAD <FILE>撤销暂存区的修改，重新放加工作区
+git reset HEAD readme.txt
+
+git reset可回退版本，也可把暂存区的修改回退到工作区，HEAD表示最新的版本
+
+
+
